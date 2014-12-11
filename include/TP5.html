@@ -1,26 +1,93 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	  xml:lang="fr" lang="fr">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-	<!--	TP4-->
-
-	<script type="text/javascript" src="js/scriptTP4Exo1.js"></script>
-	<script type="text/javascript" src="js/scriptTP4Exo2.js"></script>
-	<script type="text/javascript" src="js/scriptTP4Exo3.js"></script>
-	<script type="text/javascript" src="js/scriptTP4Exo4.js"></script>
-	<script type="text/javascript" src="js/scriptTP4Exo5.js"></script>
+	<meta http-equiv="content-type" 
+		  content="text/html; charset=UTF-8" />
+<!--	TP5-->
+	<script src="../js/scriptTP5.js"></script>
 
 </head>
 
-<body onload=bonjour(),somme100Entiers()>
+<body>
 
 	<h1>TP5</h1>
 	<h2>Exemples</h2>
 	<h3>changer de couleur</h3>
 	<p id="texte">Je suis en TP.</p>
-	<input type="button" id="bouton" value="bleu" >
+	<input type="button" 
+		   id="bouton" 
+		   value="bleu" >
+	
+	
+	<h2>Exercice 1</h2>
+	<h3>Basculement bleu => rouge </h3>
+	<p id="texte1">Je suis en TP.</p>
+	<input type="button" 
+		   id="bouton1" 
+		   value="Rouge => Bleu" >
+	
+	
+	<h2>Exercice 2</h2>
+	<h3>Les listes déroulantes</h3>
+	<select name="choix" 
+			id="choix">
+		<option value="1">valeur initiale</option>
+	</select>
+	Libellé : <input type="text" 
+					 name="libelle" 
+					 id="libelle">
+	Valeur : <input type="text" 
+					name="valeur" 
+					id="valeur">
+	<input type="button" 
+		   id="bouton2" 
+		   name="bouton2" 
+		   value="Cliquez">
+	
+	<h3>Exercice inverse</h3>
+	
+	<select name="choix2" id="choix2">
+		<option value="1">valeur initiale</option>
+		<option value="2">Arnaud</option>
+		<option value="3">Théo</option>
+		<option value="4">Maxime</option>
+		<option value="5">Bastien</option>
+	</select>
+	Libellé : <input type="text" 
+					 name="libelle2" 
+					 id="libelle2">
+	Valeur : <input type="text" 
+					name="valeur2" 
+					id="valeur2">
+	<input type="button" 
+		   id="bouton3" 
+		   name="bouton3" 
+		   value="Cliquez">
+	
+	<h3>Echanges entre 2 listes</h3>
+	
+	<select name="choix3a" id="choix3a" size="10">
+		<option value="1">footing</option>
+		<option value="2">VTT</option>
+		<option value="3">Ski</option>
+		<option value="4">Canoé</option>
+		<option value="5">Surf</option>
+		<option value="6">Vélo</option>
+	</select>
+	<input type="button" 
+		   id="bouton4a"
+		   name="bouton4a" 
+		   value=" - >>">
+	<input type="button" 
+		   id="bouton4b"
+		   name="bouton4b" 
+		   value="<< - ">
+	<select name="choix3b" id="choix3b" size="10">
+		<option value="1">kart</option>
+	</select>
 </body>
 
 </html>
